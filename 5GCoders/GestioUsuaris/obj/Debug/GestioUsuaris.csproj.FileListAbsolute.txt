@@ -1,0 +1,15 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\UsuarisCrystal.rpt
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\UsuarisCrystal.resx
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\UsuarisCrystal.cs
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioUsuaris.dll.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioUsuaris.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioUsuaris.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.GestioUsuaris.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.InformeUsuari.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.Usuaris.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.UsuarisCrystal.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioUsuaris\obj\Debug\GestioUsuaris.pdb

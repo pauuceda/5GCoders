@@ -1,0 +1,5 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTP\bin\Debug\FTP.exe.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTP\bin\Debug\FTP.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTP\bin\Debug\FTP.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTP\obj\Debug\FTP.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTP\obj\Debug\FTP.pdb

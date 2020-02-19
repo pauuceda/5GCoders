@@ -1,0 +1,9 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\bin\Debug\FTPUpload.exe.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\bin\Debug\FTPUpload.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\bin\Debug\FTPUpload.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTP.UploadFile.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.Properties.Resources.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.csprojAssemblyReference.cache

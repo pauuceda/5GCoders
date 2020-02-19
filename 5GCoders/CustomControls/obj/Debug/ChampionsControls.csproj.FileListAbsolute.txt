@@ -1,0 +1,10 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\ChampionsControls.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\ChampionsControls.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\ChampionsControls.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\5GCodersControls.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\5GCodersControls.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\5GCodersControls.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\5GCodersControls.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\CustomControls.OpcionsMenu.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\CustomControls.SWComboFK.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ChampionsControls\obj\Debug\CustomControls.SWTextBox.resources

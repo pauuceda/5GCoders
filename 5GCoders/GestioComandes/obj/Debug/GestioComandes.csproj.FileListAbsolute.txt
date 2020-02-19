@@ -1,0 +1,9 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.MestreDetall.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.pdb
