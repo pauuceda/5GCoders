@@ -85,7 +85,7 @@
             // tancarAplicacio
             // 
             this.tancarAplicacio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tancarAplicacio.Image = global::Interficie.Properties.Resources.close;
+            this.tancarAplicacio.Image = ((System.Drawing.Image)(resources.GetObject("tancarAplicacio.Image")));
             this.tancarAplicacio.Location = new System.Drawing.Point(443, 12);
             this.tancarAplicacio.Name = "tancarAplicacio";
             this.tancarAplicacio.Size = new System.Drawing.Size(20, 22);
@@ -119,7 +119,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label1.Location = new System.Drawing.Point(289, 161);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 13);
@@ -131,7 +131,7 @@
             this.RegisterLabel.AutoSize = true;
             this.RegisterLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RegisterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.RegisterLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.RegisterLabel.Location = new System.Drawing.Point(35, 222);
             this.RegisterLabel.Name = "RegisterLabel";
             this.RegisterLabel.Size = new System.Drawing.Size(63, 13);

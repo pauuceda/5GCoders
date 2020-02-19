@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.PanelDetails = new System.Windows.Forms.Panel();
+            this.labelDetalls = new System.Windows.Forms.Label();
             this.SWReference = new CustomControls.SWComboFK();
             this.SWPlanet = new CustomControls.SWComboFK();
             this.SWQuantity = new CustomControls.SWTextBox();
@@ -39,6 +40,7 @@
             this.SWIDOrderDetail = new CustomControls.SWTextBox();
             this.DGVDetall = new System.Windows.Forms.DataGridView();
             this.PanelOrder = new System.Windows.Forms.Panel();
+            this.labelOrdres = new System.Windows.Forms.Label();
             this.InsertOrder = new System.Windows.Forms.Button();
             this.CancelOrder = new System.Windows.Forms.Button();
             this.NewOrder = new System.Windows.Forms.Button();
@@ -50,8 +52,6 @@
             this.SWDateOrder = new CustomControls.SWTextBox();
             this.SWCodeOrder = new CustomControls.SWTextBox();
             this.DGVMestre = new System.Windows.Forms.DataGridView();
-            this.labelOrdres = new System.Windows.Forms.Label();
-            this.labelDetalls = new System.Windows.Forms.Label();
             this.PanelDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVDetall)).BeginInit();
             this.PanelOrder.SuspendLayout();
@@ -75,6 +75,18 @@
             this.PanelDetails.Name = "PanelDetails";
             this.PanelDetails.Size = new System.Drawing.Size(653, 700);
             this.PanelDetails.TabIndex = 0;
+            // 
+            // labelDetalls
+            // 
+            this.labelDetalls.AutoSize = true;
+            this.labelDetalls.BackColor = System.Drawing.Color.Transparent;
+            this.labelDetalls.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDetalls.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.labelDetalls.Location = new System.Drawing.Point(33, 9);
+            this.labelDetalls.Name = "labelDetalls";
+            this.labelDetalls.Size = new System.Drawing.Size(79, 25);
+            this.labelDetalls.TabIndex = 25;
+            this.labelDetalls.Text = "Detalls";
             // 
             // SWReference
             // 
@@ -220,6 +232,18 @@
             this.PanelOrder.Size = new System.Drawing.Size(699, 700);
             this.PanelOrder.TabIndex = 1;
             // 
+            // labelOrdres
+            // 
+            this.labelOrdres.AutoSize = true;
+            this.labelOrdres.BackColor = System.Drawing.Color.Transparent;
+            this.labelOrdres.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelOrdres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.labelOrdres.Location = new System.Drawing.Point(44, 9);
+            this.labelOrdres.Name = "labelOrdres";
+            this.labelOrdres.Size = new System.Drawing.Size(80, 25);
+            this.labelOrdres.TabIndex = 24;
+            this.labelOrdres.Text = "Ordres";
+            // 
             // InsertOrder
             // 
             this.InsertOrder.Location = new System.Drawing.Point(601, 77);
@@ -357,30 +381,6 @@
             this.DGVMestre.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGVMestre.Size = new System.Drawing.Size(690, 529);
             this.DGVMestre.TabIndex = 0;
-            // 
-            // labelOrdres
-            // 
-            this.labelOrdres.AutoSize = true;
-            this.labelOrdres.BackColor = System.Drawing.Color.Transparent;
-            this.labelOrdres.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOrdres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
-            this.labelOrdres.Location = new System.Drawing.Point(44, 9);
-            this.labelOrdres.Name = "labelOrdres";
-            this.labelOrdres.Size = new System.Drawing.Size(80, 25);
-            this.labelOrdres.TabIndex = 24;
-            this.labelOrdres.Text = "Ordres";
-            // 
-            // labelDetalls
-            // 
-            this.labelDetalls.AutoSize = true;
-            this.labelDetalls.BackColor = System.Drawing.Color.Transparent;
-            this.labelDetalls.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDetalls.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
-            this.labelDetalls.Location = new System.Drawing.Point(33, 9);
-            this.labelDetalls.Name = "labelDetalls";
-            this.labelDetalls.Size = new System.Drawing.Size(79, 25);
-            this.labelDetalls.TabIndex = 25;
-            this.labelDetalls.Text = "Detalls";
             // 
             // MestreDetall
             // 

@@ -6,3 +6,11 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsu
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\PerfilUsuari.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\PerfilUsuari.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.csprojAssemblyReference.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.PerfilUsuari.resources
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.csproj.GenerateResource.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.csproj.CopyComplete
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\PerfilUsuari\obj\Debug\PerfilUsuari.pdb

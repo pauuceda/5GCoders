@@ -107,22 +107,22 @@ namespace Interficie
             {
                 if (obrint) 
                 {
-                    ferMenuGran();
+                    FerMenuGran();
                 }
                 else
                 {
-                    ferMenuPetit();
+                    FerMenuPetit();
                 }
             }
             else
             {
                 if (!obrint)
                 {
-                    ferMenuPetit();
+                    FerMenuPetit();
                 }
                 else
                 {
-                    ferMenuGran();
+                    FerMenuGran();
                 }
             }
 
@@ -141,7 +141,7 @@ namespace Interficie
             primerTick = false;
         }
 
-        private void ferMenuGran()
+        private void FerMenuGran()
         {
             MenuVertical.Width += 14;
             logo.Width += 14;
@@ -156,7 +156,7 @@ namespace Interficie
             }
         }
 
-        private void ferMenuPetit()
+        private void FerMenuPetit()
         {
             MenuVertical.Width -= 14;
             logo.Width -= 14;
@@ -235,37 +235,37 @@ namespace Interficie
 
         private void PanelDGV_Click(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void PanelHora_Click(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void MenuVertical_Click(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void panelMenu_Click(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void BarraTitulo_Click(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void lbl_hora_Click(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void data_Tick(object sender, EventArgs e)
@@ -280,7 +280,7 @@ namespace Interficie
 
         private void PanelHora_Click_1(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
 
         private void veurePerfilB_Click(object sender, EventArgs e)
@@ -312,7 +312,7 @@ namespace Interficie
                     obrint = true;
                 }
 
-                cerrarOpciones();
+                TancarOpcions();
                 decorarOpcions();
             }
         }
@@ -327,7 +327,7 @@ namespace Interficie
 
         private void iconminimizar_MouseClick(object sender, MouseEventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
 
             if (e.Button == MouseButtons.Left)
             {
@@ -429,7 +429,7 @@ namespace Interficie
             L.Show();
         }
 
-        private void cerrarOpciones()
+        private void TancarOpcions()
         {
             if (moreOptions.Size == moreOptions.MaximumSize)
             {
@@ -437,9 +437,9 @@ namespace Interficie
             }
         }
 
-        private void tancarOpcions(object sender, EventArgs e)
+        private void EventTancarOpcions(object sender, EventArgs e)
         {
-            cerrarOpciones();
+            TancarOpcions();
         }
     }
 }

@@ -30,37 +30,37 @@
         {
             this.components = new System.ComponentModel.Container();
             this.PanelEdicion = new System.Windows.Forms.Panel();
+            this.SWPlanetsTB = new CustomControls.SWTextBox();
+            this.SWPlanetsCB = new CustomControls.SWComboFK();
             this.label9 = new System.Windows.Forms.Label();
+            this.SWEspeciesTB = new CustomControls.SWTextBox();
+            this.SWUserRankTB = new CustomControls.SWTextBox();
+            this.SWCategoriaTB = new CustomControls.SWTextBox();
+            this.SWEspeciesCB = new CustomControls.SWComboFK();
             this.label8 = new System.Windows.Forms.Label();
+            this.SWUserRank = new CustomControls.SWComboFK();
             this.label7 = new System.Windows.Forms.Label();
+            this.SWCategoriaCB = new CustomControls.SWComboFK();
             this.label4 = new System.Windows.Forms.Label();
             this.PrintButton = new System.Windows.Forms.Button();
             this.CanceButton = new System.Windows.Forms.Button();
             this.InsertButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.SWPhoto = new CustomControls.SWTextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.SWLogin = new CustomControls.SWTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.SWPassword = new CustomControls.SWTextBox();
+            this.SWNomUsuari = new CustomControls.SWTextBox();
+            this.SWCodeUser = new CustomControls.SWTextBox();
             this.labelBuscar = new System.Windows.Forms.Label();
+            this.SWSearch = new CustomControls.SWTextBox();
             this.NewButton = new System.Windows.Forms.Button();
             this.UpdateButton = new System.Windows.Forms.Button();
             this.PanelDGV = new System.Windows.Forms.Panel();
             this.DGV = new System.Windows.Forms.DataGridView();
-            this.SWPlanetsTB = new CustomControls.SWTextBox();
-            this.SWPlanetsCB = new CustomControls.SWComboFK();
-            this.SWEspeciesTB = new CustomControls.SWTextBox();
-            this.SWUserRankTB = new CustomControls.SWTextBox();
-            this.SWCategoriaTB = new CustomControls.SWTextBox();
-            this.SWEspeciesCB = new CustomControls.SWComboFK();
-            this.SWUserRank = new CustomControls.SWComboFK();
-            this.SWCategoriaCB = new CustomControls.SWComboFK();
-            this.SWPhoto = new CustomControls.SWTextBox();
-            this.SWLogin = new CustomControls.SWTextBox();
-            this.SWPassword = new CustomControls.SWTextBox();
-            this.SWNomUsuari = new CustomControls.SWTextBox();
-            this.SWCodeUser = new CustomControls.SWTextBox();
-            this.SWSearch = new CustomControls.SWTextBox();
             this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn58 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn59 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -116,44 +116,152 @@
             this.PanelEdicion.Size = new System.Drawing.Size(1350, 82);
             this.PanelEdicion.TabIndex = 12;
             // 
+            // SWPlanetsTB
+            // 
+            this.SWPlanetsTB.controlID = "SWPlanetsCB";
+            this.SWPlanetsTB.Enabled = false;
+            this.SWPlanetsTB.EsForania = true;
+            this.SWPlanetsTB.Location = new System.Drawing.Point(770, 54);
+            this.SWPlanetsTB.MaxLength = 100;
+            this.SWPlanetsTB.Name = "SWPlanetsTB";
+            this.SWPlanetsTB.NomCamp = "idPlanet";
+            this.SWPlanetsTB.Size = new System.Drawing.Size(0, 20);
+            this.SWPlanetsTB.TabIndex = 81;
+            this.SWPlanetsTB.Tag = "";
+            this.SWPlanetsTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
+            // SWPlanetsCB
+            // 
+            this.SWPlanetsCB.controlID = "SWPlanetsTB";
+            this.SWPlanetsCB.DisplayMember = "DescPlanet";
+            this.SWPlanetsCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SWPlanetsCB.FormattingEnabled = true;
+            this.SWPlanetsCB.Location = new System.Drawing.Point(966, 16);
+            this.SWPlanetsCB.Name = "SWPlanetsCB";
+            this.SWPlanetsCB.Size = new System.Drawing.Size(100, 21);
+            this.SWPlanetsCB.TabIndex = 79;
+            this.SWPlanetsCB.Taula = "Planets";
+            this.SWPlanetsCB.ValueMember = "idPlanet";
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label9.Location = new System.Drawing.Point(963, 1);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(48, 15);
             this.label9.TabIndex = 80;
             this.label9.Text = "Planeta";
             // 
+            // SWEspeciesTB
+            // 
+            this.SWEspeciesTB.controlID = "SWEspeciesCB";
+            this.SWEspeciesTB.Enabled = false;
+            this.SWEspeciesTB.EsForania = true;
+            this.SWEspeciesTB.Location = new System.Drawing.Point(959, 56);
+            this.SWEspeciesTB.MaxLength = 100;
+            this.SWEspeciesTB.Name = "SWEspeciesTB";
+            this.SWEspeciesTB.NomCamp = "idSpecie";
+            this.SWEspeciesTB.Size = new System.Drawing.Size(0, 20);
+            this.SWEspeciesTB.TabIndex = 78;
+            this.SWEspeciesTB.Tag = "";
+            this.SWEspeciesTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
+            // SWUserRankTB
+            // 
+            this.SWUserRankTB.controlID = "SWUserRank";
+            this.SWUserRankTB.Enabled = false;
+            this.SWUserRankTB.EsForania = true;
+            this.SWUserRankTB.Location = new System.Drawing.Point(1212, 56);
+            this.SWUserRankTB.MaxLength = 100;
+            this.SWUserRankTB.Name = "SWUserRankTB";
+            this.SWUserRankTB.NomCamp = "idUserRank";
+            this.SWUserRankTB.Size = new System.Drawing.Size(0, 20);
+            this.SWUserRankTB.TabIndex = 76;
+            this.SWUserRankTB.Tag = "";
+            this.SWUserRankTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
+            // SWCategoriaTB
+            // 
+            this.SWCategoriaTB.controlID = "SWCategoriaCB";
+            this.SWCategoriaTB.Enabled = false;
+            this.SWCategoriaTB.EsForania = true;
+            this.SWCategoriaTB.Location = new System.Drawing.Point(1042, 56);
+            this.SWCategoriaTB.MaxLength = 100;
+            this.SWCategoriaTB.Name = "SWCategoriaTB";
+            this.SWCategoriaTB.NomCamp = "idUserCategory";
+            this.SWCategoriaTB.Size = new System.Drawing.Size(0, 20);
+            this.SWCategoriaTB.TabIndex = 75;
+            this.SWCategoriaTB.Tag = "";
+            this.SWCategoriaTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
+            // SWEspeciesCB
+            // 
+            this.SWEspeciesCB.controlID = "SWEspeciesTB";
+            this.SWEspeciesCB.DisplayMember = "DescSpecie";
+            this.SWEspeciesCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SWEspeciesCB.FormattingEnabled = true;
+            this.SWEspeciesCB.Location = new System.Drawing.Point(1085, 18);
+            this.SWEspeciesCB.Name = "SWEspeciesCB";
+            this.SWEspeciesCB.Size = new System.Drawing.Size(100, 21);
+            this.SWEspeciesCB.TabIndex = 73;
+            this.SWEspeciesCB.Taula = "Species";
+            this.SWEspeciesCB.ValueMember = "idSpecie";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label8.Location = new System.Drawing.Point(1082, 3);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 15);
             this.label8.TabIndex = 74;
             this.label8.Text = "Espècie";
             // 
+            // SWUserRank
+            // 
+            this.SWUserRank.controlID = "SWUserRankTB";
+            this.SWUserRank.DisplayMember = "DescRank";
+            this.SWUserRank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SWUserRank.FormattingEnabled = true;
+            this.SWUserRank.Location = new System.Drawing.Point(729, 16);
+            this.SWUserRank.Name = "SWUserRank";
+            this.SWUserRank.Size = new System.Drawing.Size(100, 21);
+            this.SWUserRank.TabIndex = 69;
+            this.SWUserRank.Taula = "UserRanks";
+            this.SWUserRank.ValueMember = "idUserRank";
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label7.Location = new System.Drawing.Point(726, 1);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 15);
             this.label7.TabIndex = 70;
             this.label7.Text = "Rang";
             // 
+            // SWCategoriaCB
+            // 
+            this.SWCategoriaCB.controlID = "SWCategoriaTB";
+            this.SWCategoriaCB.DisplayMember = "DescCategory";
+            this.SWCategoriaCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SWCategoriaCB.FormattingEnabled = true;
+            this.SWCategoriaCB.Location = new System.Drawing.Point(847, 17);
+            this.SWCategoriaCB.Name = "SWCategoriaCB";
+            this.SWCategoriaCB.Size = new System.Drawing.Size(100, 21);
+            this.SWCategoriaCB.TabIndex = 67;
+            this.SWCategoriaCB.Taula = "UserCategories";
+            this.SWCategoriaCB.ValueMember = "idUserCategory";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label4.Location = new System.Drawing.Point(844, 2);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 15);
@@ -199,29 +307,55 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label5.Location = new System.Drawing.Point(608, 2);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(30, 15);
             this.label5.TabIndex = 63;
             this.label5.Text = "Foto";
             // 
+            // SWPhoto
+            // 
+            this.SWPhoto.controlID = null;
+            this.SWPhoto.EsForania = false;
+            this.SWPhoto.Location = new System.Drawing.Point(611, 18);
+            this.SWPhoto.MaxLength = 100;
+            this.SWPhoto.Name = "SWPhoto";
+            this.SWPhoto.NomCamp = "Photo";
+            this.SWPhoto.Size = new System.Drawing.Size(100, 20);
+            this.SWPhoto.TabIndex = 5;
+            this.SWPhoto.Tag = "";
+            this.SWPhoto.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label6.Location = new System.Drawing.Point(370, 2);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(36, 15);
             this.label6.TabIndex = 62;
             this.label6.Text = "Login";
             // 
+            // SWLogin
+            // 
+            this.SWLogin.controlID = null;
+            this.SWLogin.EsForania = false;
+            this.SWLogin.Location = new System.Drawing.Point(373, 18);
+            this.SWLogin.MaxLength = 100;
+            this.SWLogin.Name = "SWLogin";
+            this.SWLogin.NomCamp = "Login";
+            this.SWLogin.Size = new System.Drawing.Size(100, 20);
+            this.SWLogin.TabIndex = 3;
+            this.SWLogin.Tag = "";
+            this.SWLogin.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label3.Location = new System.Drawing.Point(489, 2);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 15);
@@ -232,7 +366,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label2.Location = new System.Drawing.Point(251, 3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 15);
@@ -243,23 +377,77 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label1.Location = new System.Drawing.Point(131, 2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 15);
             this.label1.TabIndex = 58;
             this.label1.Text = "Codi Usuari";
             // 
+            // SWPassword
+            // 
+            this.SWPassword.controlID = null;
+            this.SWPassword.EsForania = false;
+            this.SWPassword.Location = new System.Drawing.Point(492, 18);
+            this.SWPassword.MaxLength = 100;
+            this.SWPassword.Name = "SWPassword";
+            this.SWPassword.NomCamp = "Password";
+            this.SWPassword.Size = new System.Drawing.Size(100, 20);
+            this.SWPassword.TabIndex = 4;
+            this.SWPassword.Tag = "";
+            this.SWPassword.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
+            // SWNomUsuari
+            // 
+            this.SWNomUsuari.controlID = null;
+            this.SWNomUsuari.EsForania = false;
+            this.SWNomUsuari.Location = new System.Drawing.Point(254, 18);
+            this.SWNomUsuari.MaxLength = 100;
+            this.SWNomUsuari.Name = "SWNomUsuari";
+            this.SWNomUsuari.NomCamp = "UserName";
+            this.SWNomUsuari.Size = new System.Drawing.Size(100, 20);
+            this.SWNomUsuari.TabIndex = 2;
+            this.SWNomUsuari.Tag = "";
+            this.SWNomUsuari.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
+            // SWCodeUser
+            // 
+            this.SWCodeUser.controlID = null;
+            this.SWCodeUser.EsForania = false;
+            this.SWCodeUser.Location = new System.Drawing.Point(134, 18);
+            this.SWCodeUser.MaxLength = 100;
+            this.SWCodeUser.Name = "SWCodeUser";
+            this.SWCodeUser.NomCamp = "CodeUser";
+            this.SWCodeUser.Size = new System.Drawing.Size(100, 20);
+            this.SWCodeUser.TabIndex = 1;
+            this.SWCodeUser.Tag = "";
+            this.SWCodeUser.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
+            // 
             // labelBuscar
             // 
             this.labelBuscar.AutoSize = true;
             this.labelBuscar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.labelBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.labelBuscar.Location = new System.Drawing.Point(12, 3);
             this.labelBuscar.Name = "labelBuscar";
             this.labelBuscar.Size = new System.Drawing.Size(44, 15);
             this.labelBuscar.TabIndex = 23;
             this.labelBuscar.Text = "Buscar";
+            // 
+            // SWSearch
+            // 
+            this.SWSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.SWSearch.controlID = null;
+            this.SWSearch.EsForania = false;
+            this.SWSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SWSearch.ForeColor = System.Drawing.Color.White;
+            this.SWSearch.Location = new System.Drawing.Point(15, 19);
+            this.SWSearch.Name = "SWSearch";
+            this.SWSearch.NomCamp = "";
+            this.SWSearch.Size = new System.Drawing.Size(100, 20);
+            this.SWSearch.TabIndex = 0;
+            this.SWSearch.Tag = "";
+            this.SWSearch.TipusValor = CustomControls.SWTextBox.TipusDada.Text;
             // 
             // NewButton
             // 
@@ -328,194 +516,6 @@
             this.DGV.TabIndex = 15;
             this.DGV.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_RowEnter);
             this.DGV.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DGV_KeyDown);
-            // 
-            // SWPlanetsTB
-            // 
-            this.SWPlanetsTB.controlID = "SWPlanetsCB";
-            this.SWPlanetsTB.Enabled = false;
-            this.SWPlanetsTB.EsForania = true;
-            this.SWPlanetsTB.Location = new System.Drawing.Point(770, 54);
-            this.SWPlanetsTB.MaxLength = 100;
-            this.SWPlanetsTB.Name = "SWPlanetsTB";
-            this.SWPlanetsTB.NomCamp = "idPlanet";
-            this.SWPlanetsTB.Size = new System.Drawing.Size(0, 20);
-            this.SWPlanetsTB.TabIndex = 81;
-            this.SWPlanetsTB.Tag = "";
-            this.SWPlanetsTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWPlanetsCB
-            // 
-            this.SWPlanetsCB.controlID = "SWPlanetsTB";
-            this.SWPlanetsCB.DisplayMember = "DescPlanet";
-            this.SWPlanetsCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.SWPlanetsCB.FormattingEnabled = true;
-            this.SWPlanetsCB.Location = new System.Drawing.Point(966, 16);
-            this.SWPlanetsCB.Name = "SWPlanetsCB";
-            this.SWPlanetsCB.Size = new System.Drawing.Size(100, 21);
-            this.SWPlanetsCB.TabIndex = 79;
-            this.SWPlanetsCB.Taula = "Planets";
-            this.SWPlanetsCB.ValueMember = "idPlanet";
-            // 
-            // SWEspeciesTB
-            // 
-            this.SWEspeciesTB.controlID = "SWEspeciesCB";
-            this.SWEspeciesTB.Enabled = false;
-            this.SWEspeciesTB.EsForania = true;
-            this.SWEspeciesTB.Location = new System.Drawing.Point(959, 56);
-            this.SWEspeciesTB.MaxLength = 100;
-            this.SWEspeciesTB.Name = "SWEspeciesTB";
-            this.SWEspeciesTB.NomCamp = "idSpecie";
-            this.SWEspeciesTB.Size = new System.Drawing.Size(0, 20);
-            this.SWEspeciesTB.TabIndex = 78;
-            this.SWEspeciesTB.Tag = "";
-            this.SWEspeciesTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWUserRankTB
-            // 
-            this.SWUserRankTB.controlID = "SWUserRank";
-            this.SWUserRankTB.Enabled = false;
-            this.SWUserRankTB.EsForania = true;
-            this.SWUserRankTB.Location = new System.Drawing.Point(1212, 56);
-            this.SWUserRankTB.MaxLength = 100;
-            this.SWUserRankTB.Name = "SWUserRankTB";
-            this.SWUserRankTB.NomCamp = "idUserRank";
-            this.SWUserRankTB.Size = new System.Drawing.Size(0, 20);
-            this.SWUserRankTB.TabIndex = 76;
-            this.SWUserRankTB.Tag = "";
-            this.SWUserRankTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWCategoriaTB
-            // 
-            this.SWCategoriaTB.controlID = "SWCategoriaCB";
-            this.SWCategoriaTB.Enabled = false;
-            this.SWCategoriaTB.EsForania = true;
-            this.SWCategoriaTB.Location = new System.Drawing.Point(1042, 56);
-            this.SWCategoriaTB.MaxLength = 100;
-            this.SWCategoriaTB.Name = "SWCategoriaTB";
-            this.SWCategoriaTB.NomCamp = "idUserCategory";
-            this.SWCategoriaTB.Size = new System.Drawing.Size(0, 20);
-            this.SWCategoriaTB.TabIndex = 75;
-            this.SWCategoriaTB.Tag = "";
-            this.SWCategoriaTB.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWEspeciesCB
-            // 
-            this.SWEspeciesCB.controlID = "SWEspeciesTB";
-            this.SWEspeciesCB.DisplayMember = "DescSpecie";
-            this.SWEspeciesCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.SWEspeciesCB.FormattingEnabled = true;
-            this.SWEspeciesCB.Location = new System.Drawing.Point(1085, 18);
-            this.SWEspeciesCB.Name = "SWEspeciesCB";
-            this.SWEspeciesCB.Size = new System.Drawing.Size(100, 21);
-            this.SWEspeciesCB.TabIndex = 73;
-            this.SWEspeciesCB.Taula = "Species";
-            this.SWEspeciesCB.ValueMember = "idSpecie";
-            // 
-            // SWUserRank
-            // 
-            this.SWUserRank.controlID = "SWUserRankTB";
-            this.SWUserRank.DisplayMember = "DescRank";
-            this.SWUserRank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.SWUserRank.FormattingEnabled = true;
-            this.SWUserRank.Location = new System.Drawing.Point(729, 16);
-            this.SWUserRank.Name = "SWUserRank";
-            this.SWUserRank.Size = new System.Drawing.Size(100, 21);
-            this.SWUserRank.TabIndex = 69;
-            this.SWUserRank.Taula = "UserRanks";
-            this.SWUserRank.ValueMember = "idUserRank";
-            // 
-            // SWCategoriaCB
-            // 
-            this.SWCategoriaCB.controlID = "SWCategoriaTB";
-            this.SWCategoriaCB.DisplayMember = "DescCategory";
-            this.SWCategoriaCB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.SWCategoriaCB.FormattingEnabled = true;
-            this.SWCategoriaCB.Location = new System.Drawing.Point(847, 17);
-            this.SWCategoriaCB.Name = "SWCategoriaCB";
-            this.SWCategoriaCB.Size = new System.Drawing.Size(100, 21);
-            this.SWCategoriaCB.TabIndex = 67;
-            this.SWCategoriaCB.Taula = "UserCategories";
-            this.SWCategoriaCB.ValueMember = "idUserCategory";
-            // 
-            // SWPhoto
-            // 
-            this.SWPhoto.controlID = null;
-            this.SWPhoto.EsForania = false;
-            this.SWPhoto.Location = new System.Drawing.Point(611, 18);
-            this.SWPhoto.MaxLength = 100;
-            this.SWPhoto.Name = "SWPhoto";
-            this.SWPhoto.NomCamp = "Photo";
-            this.SWPhoto.Size = new System.Drawing.Size(100, 20);
-            this.SWPhoto.TabIndex = 5;
-            this.SWPhoto.Tag = "";
-            this.SWPhoto.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWLogin
-            // 
-            this.SWLogin.controlID = null;
-            this.SWLogin.EsForania = false;
-            this.SWLogin.Location = new System.Drawing.Point(373, 18);
-            this.SWLogin.MaxLength = 100;
-            this.SWLogin.Name = "SWLogin";
-            this.SWLogin.NomCamp = "Login";
-            this.SWLogin.Size = new System.Drawing.Size(100, 20);
-            this.SWLogin.TabIndex = 3;
-            this.SWLogin.Tag = "";
-            this.SWLogin.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWPassword
-            // 
-            this.SWPassword.controlID = null;
-            this.SWPassword.EsForania = false;
-            this.SWPassword.Location = new System.Drawing.Point(492, 18);
-            this.SWPassword.MaxLength = 100;
-            this.SWPassword.Name = "SWPassword";
-            this.SWPassword.NomCamp = "Password";
-            this.SWPassword.Size = new System.Drawing.Size(100, 20);
-            this.SWPassword.TabIndex = 4;
-            this.SWPassword.Tag = "";
-            this.SWPassword.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWNomUsuari
-            // 
-            this.SWNomUsuari.controlID = null;
-            this.SWNomUsuari.EsForania = false;
-            this.SWNomUsuari.Location = new System.Drawing.Point(254, 18);
-            this.SWNomUsuari.MaxLength = 100;
-            this.SWNomUsuari.Name = "SWNomUsuari";
-            this.SWNomUsuari.NomCamp = "UserName";
-            this.SWNomUsuari.Size = new System.Drawing.Size(100, 20);
-            this.SWNomUsuari.TabIndex = 2;
-            this.SWNomUsuari.Tag = "";
-            this.SWNomUsuari.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWCodeUser
-            // 
-            this.SWCodeUser.controlID = null;
-            this.SWCodeUser.EsForania = false;
-            this.SWCodeUser.Location = new System.Drawing.Point(134, 18);
-            this.SWCodeUser.MaxLength = 100;
-            this.SWCodeUser.Name = "SWCodeUser";
-            this.SWCodeUser.NomCamp = "CodeUser";
-            this.SWCodeUser.Size = new System.Drawing.Size(100, 20);
-            this.SWCodeUser.TabIndex = 1;
-            this.SWCodeUser.Tag = "";
-            this.SWCodeUser.TipusValor = CustomControls.SWTextBox.TipusDada.Tot;
-            // 
-            // SWSearch
-            // 
-            this.SWSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(55)))), ((int)(((byte)(107)))));
-            this.SWSearch.controlID = null;
-            this.SWSearch.EsForania = false;
-            this.SWSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SWSearch.ForeColor = System.Drawing.Color.White;
-            this.SWSearch.Location = new System.Drawing.Point(15, 19);
-            this.SWSearch.Name = "SWSearch";
-            this.SWSearch.NomCamp = "";
-            this.SWSearch.Size = new System.Drawing.Size(100, 20);
-            this.SWSearch.TabIndex = 0;
-            this.SWSearch.Tag = "";
-            this.SWSearch.TipusValor = CustomControls.SWTextBox.TipusDada.Text;
             // 
             // dataGridViewTextBoxColumn57
             // 

@@ -6,3 +6,11 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\OpcionsMen
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\OpcionsMenu.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\MenuOptions.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\MenuOptions.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\MenuOptions.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\MenuOptions.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\OpcionsMenu.csprojAssemblyReference.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\MenuOptions.MenuOptions.resources
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\OpcionsMenu.csproj.GenerateResource.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\OpcionsMenu.csproj.CopyComplete
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\MenuOptions.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\OpcionsMenu\obj\Debug\MenuOptions.pdb

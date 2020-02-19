@@ -6,3 +6,11 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.cspr
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Especies.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Especies.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.csprojAssemblyReference.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.Especies.resources
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.csproj.GenerateResource.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.csproj.CopyComplete
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Especies\obj\Debug\Especies.pdb

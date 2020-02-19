@@ -97,7 +97,7 @@
             // 
             this.LabelFiliation.AutoSize = true;
             this.LabelFiliation.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelFiliation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelFiliation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelFiliation.Location = new System.Drawing.Point(368, 41);
             this.LabelFiliation.Name = "LabelFiliation";
             this.LabelFiliation.Size = new System.Drawing.Size(51, 15);
@@ -108,7 +108,7 @@
             // 
             this.LabelParsecs.AutoSize = true;
             this.LabelParsecs.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelParsecs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelParsecs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelParsecs.Location = new System.Drawing.Point(251, 41);
             this.LabelParsecs.Name = "LabelParsecs";
             this.LabelParsecs.Size = new System.Drawing.Size(49, 15);
@@ -119,7 +119,7 @@
             // 
             this.LabelLongitud.AutoSize = true;
             this.LabelLongitud.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelLongitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelLongitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelLongitud.Location = new System.Drawing.Point(131, 42);
             this.LabelLongitud.Name = "LabelLongitud";
             this.LabelLongitud.Size = new System.Drawing.Size(53, 15);
@@ -130,7 +130,7 @@
             // 
             this.LabelCodiPlaneta.AutoSize = true;
             this.LabelCodiPlaneta.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelCodiPlaneta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelCodiPlaneta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelCodiPlaneta.Location = new System.Drawing.Point(12, 42);
             this.LabelCodiPlaneta.Name = "LabelCodiPlaneta";
             this.LabelCodiPlaneta.Size = new System.Drawing.Size(76, 15);
@@ -141,7 +141,7 @@
             // 
             this.LabelSpecies.AutoSize = true;
             this.LabelSpecies.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelSpecies.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelSpecies.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelSpecies.Location = new System.Drawing.Point(499, 3);
             this.LabelSpecies.Name = "LabelSpecies";
             this.LabelSpecies.Size = new System.Drawing.Size(54, 15);
@@ -152,7 +152,7 @@
             // 
             this.LabelSector.AutoSize = true;
             this.LabelSector.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelSector.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelSector.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelSector.Location = new System.Drawing.Point(367, 3);
             this.LabelSector.Name = "LabelSector";
             this.LabelSector.Size = new System.Drawing.Size(41, 15);
@@ -163,7 +163,7 @@
             // 
             this.LabelLatitud.AutoSize = true;
             this.LabelLatitud.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelLatitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelLatitud.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelLatitud.Location = new System.Drawing.Point(250, 4);
             this.LabelLatitud.Name = "LabelLatitud";
             this.LabelLatitud.Size = new System.Drawing.Size(42, 15);
@@ -174,7 +174,7 @@
             // 
             this.LabelNomPlaneta.AutoSize = true;
             this.LabelNomPlaneta.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelNomPlaneta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelNomPlaneta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelNomPlaneta.Location = new System.Drawing.Point(131, 3);
             this.LabelNomPlaneta.Name = "LabelNomPlaneta";
             this.LabelNomPlaneta.Size = new System.Drawing.Size(76, 15);

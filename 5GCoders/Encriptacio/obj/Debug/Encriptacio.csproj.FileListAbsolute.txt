@@ -4,3 +4,9 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptaci
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Encriptacio.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Encriptacio.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.csprojAssemblyReference.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.csproj.CopyComplete
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.pdb

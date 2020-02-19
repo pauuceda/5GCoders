@@ -7,3 +7,12 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.cs
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.exe
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.pdb
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.csprojAssemblyReference.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\bin\Debug\FTPUpload.exe.config
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\bin\Debug\FTPUpload.exe
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\bin\Debug\FTPUpload.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.csprojAssemblyReference.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTP.UploadFile.resources
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.Properties.Resources.resources
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.csproj.GenerateResource.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.exe
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.pdb

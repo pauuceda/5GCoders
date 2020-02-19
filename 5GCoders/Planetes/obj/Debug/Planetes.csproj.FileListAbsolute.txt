@@ -6,3 +6,11 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planetes.cspr
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planetes.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planets.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planets.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Planets.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Planets.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planetes.csprojAssemblyReference.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planets.Planetes.resources
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planetes.csproj.GenerateResource.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planetes.csproj.CopyComplete
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planets.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\Planetes\obj\Debug\Planets.pdb

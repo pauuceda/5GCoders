@@ -69,7 +69,7 @@
             // 
             // MenuVertical
             // 
-            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(46)))), ((int)(((byte)(127)))));
+            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.MenuVertical.Controls.Add(this.panelMenu);
             this.MenuVertical.Controls.Add(this.profile);
             this.MenuVertical.Controls.Add(this.logo);
@@ -83,9 +83,9 @@
             // 
             // panelMenu
             // 
-            this.panelMenu.Location = new System.Drawing.Point(3, 65);
+            this.panelMenu.Location = new System.Drawing.Point(3, 85);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(241, 664);
+            this.panelMenu.Size = new System.Drawing.Size(247, 657);
             this.panelMenu.TabIndex = 5;
             this.panelMenu.Click += new System.EventHandler(this.panelMenu_Click);
             // 
@@ -101,7 +101,7 @@
             this.profile.Size = new System.Drawing.Size(232, 100);
             this.profile.TabIndex = 1;
             this.profile.TabStop = false;
-            this.profile.Click += new System.EventHandler(this.tancarOpcions);
+            this.profile.Click += new System.EventHandler(this.EventTancarOpcions);
             // 
             // MoreOptionsB
             // 
@@ -126,7 +126,7 @@
             this.lbl_user.Size = new System.Drawing.Size(30, 13);
             this.lbl_user.TabIndex = 1;
             this.lbl_user.Text = "user";
-            this.lbl_user.Click += new System.EventHandler(this.tancarOpcions);
+            this.lbl_user.Click += new System.EventHandler(this.EventTancarOpcions);
             // 
             // img_profile
             // 
@@ -137,7 +137,7 @@
             this.img_profile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.img_profile.TabIndex = 0;
             this.img_profile.TabStop = false;
-            this.img_profile.Click += new System.EventHandler(this.tancarOpcions);
+            this.img_profile.Click += new System.EventHandler(this.EventTancarOpcions);
             // 
             // lbl_name
             // 
@@ -151,7 +151,7 @@
             this.lbl_name.Size = new System.Drawing.Size(37, 18);
             this.lbl_name.TabIndex = 0;
             this.lbl_name.Text = "nom";
-            this.lbl_name.Click += new System.EventHandler(this.tancarOpcions);
+            this.lbl_name.Click += new System.EventHandler(this.EventTancarOpcions);
             // 
             // logo
             // 
@@ -159,7 +159,7 @@
             this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
             this.logo.Location = new System.Drawing.Point(0, 0);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(250, 60);
+            this.logo.Size = new System.Drawing.Size(250, 79);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo.TabIndex = 0;
             this.logo.TabStop = false;
@@ -178,7 +178,7 @@
             // 
             // tancarSessioB
             // 
-            this.tancarSessioB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(46)))), ((int)(((byte)(127)))));
+            this.tancarSessioB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.tancarSessioB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tancarSessioB.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.tancarSessioB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -194,7 +194,7 @@
             // 
             // veurePerfilB
             // 
-            this.veurePerfilB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(46)))), ((int)(((byte)(127)))));
+            this.veurePerfilB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.veurePerfilB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.veurePerfilB.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.veurePerfilB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -225,7 +225,7 @@
             // 
             this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconminimizar.Image = global::Interficie.Properties.Resources.minimize;
+            this.iconminimizar.Image = ((System.Drawing.Image)(resources.GetObject("iconminimizar.Image")));
             this.iconminimizar.Location = new System.Drawing.Point(1296, 12);
             this.iconminimizar.Name = "iconminimizar";
             this.iconminimizar.Size = new System.Drawing.Size(17, 17);
@@ -238,7 +238,7 @@
             // 
             this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconcerrar.Image = global::Interficie.Properties.Resources.close;
+            this.iconcerrar.Image = ((System.Drawing.Image)(resources.GetObject("iconcerrar.Image")));
             this.iconcerrar.Location = new System.Drawing.Point(1320, 12);
             this.iconcerrar.Name = "iconcerrar";
             this.iconcerrar.Size = new System.Drawing.Size(17, 17);

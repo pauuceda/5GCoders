@@ -54,11 +54,19 @@
             this.PanelEdicion.Controls.SetChildIndex(this.swTextBox2, 0);
             this.PanelEdicion.Controls.SetChildIndex(this.label2, 0);
             // 
+            // labelBuscar
+            // 
+            this.labelBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            // 
+            // SWSearch
+            // 
+            this.SWSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            // 
             // LabelCodiPlaneta
             // 
             this.LabelCodiPlaneta.AutoSize = true;
             this.LabelCodiPlaneta.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelCodiPlaneta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.LabelCodiPlaneta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.LabelCodiPlaneta.Location = new System.Drawing.Point(131, 2);
             this.LabelCodiPlaneta.Name = "LabelCodiPlaneta";
             this.LabelCodiPlaneta.Size = new System.Drawing.Size(32, 15);
@@ -81,7 +89,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label1.Location = new System.Drawing.Point(255, 1);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 15);
@@ -104,7 +112,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(14)))), ((int)(((byte)(81)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
             this.label2.Location = new System.Drawing.Point(377, 1);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 15);
