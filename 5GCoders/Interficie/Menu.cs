@@ -144,6 +144,7 @@ namespace Interficie
         private void ferMenuGran()
         {
             MenuVertical.Width += 14;
+            logo.Width += 14;
             profile.Width += 13;
 
             foreach (UserControl ctrl in panelMenu.Controls)
@@ -158,6 +159,7 @@ namespace Interficie
         private void ferMenuPetit()
         {
             MenuVertical.Width -= 14;
+            logo.Width -= 14;
             profile.Width -= 13;
 
             foreach (UserControl ctrl in panelMenu.Controls)
