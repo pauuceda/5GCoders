@@ -28,38 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
-            this.progress = new System.Windows.Forms.ProgressBar();
-            this.percent = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.progres = new System.Windows.Forms.Timer();
+            this.progres = new System.Windows.Forms.Timer(this.components);
+            this.percent = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // progress
-            // 
-            this.progress.BackColor = System.Drawing.Color.White;
-            this.progress.ForeColor = System.Drawing.Color.DeepPink;
-            this.progress.Location = new System.Drawing.Point(209, 261);
-            this.progress.Name = "progress";
-            this.progress.Size = new System.Drawing.Size(209, 23);
-            this.progress.Step = 1;
-            this.progress.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.progress.TabIndex = 0;
-            // 
-            // percent
-            // 
-            this.percent.AutoSize = true;
-            this.percent.Location = new System.Drawing.Point(306, 289);
-            this.percent.Name = "percent";
-            this.percent.Size = new System.Drawing.Size(21, 13);
-            this.percent.TabIndex = 1;
-            this.percent.Text = "0%";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(209, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(213, 55);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(209, 188);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -72,15 +54,36 @@
             this.progres.Interval = 15;
             this.progres.Tick += new System.EventHandler(this.progres_Tick);
             // 
+            // percent
+            // 
+            this.percent.AutoSize = true;
+            this.percent.ForeColor = System.Drawing.Color.White;
+            this.percent.Location = new System.Drawing.Point(304, 313);
+            this.percent.Name = "percent";
+            this.percent.Size = new System.Drawing.Size(21, 13);
+            this.percent.TabIndex = 1;
+            this.percent.Text = "0%";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(232, 249);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(167, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
             // Splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(640, 380);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.percent);
-            this.Controls.Add(this.progress);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -90,16 +93,16 @@
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ProgressBar progress;
-        private System.Windows.Forms.Label percent;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer progres;
+        private System.Windows.Forms.Label percent;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

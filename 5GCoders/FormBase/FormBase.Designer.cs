@@ -32,11 +32,11 @@
             this.InsertButton = new System.Windows.Forms.Button();
             this.CancelButton = new System.Windows.Forms.Button();
             this.labelBuscar = new System.Windows.Forms.Label();
+            this.SWSearch = new CustomControls.SWTextBox();
             this.NewButton = new System.Windows.Forms.Button();
             this.UpdateButton = new System.Windows.Forms.Button();
             this.PanelDGV = new System.Windows.Forms.Panel();
             this.DGV = new System.Windows.Forms.DataGridView();
-            this.SWSearch = new CustomControls.SWTextBox();
             this.PanelEdicion.SuspendLayout();
             this.PanelDGV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV)).BeginInit();
@@ -84,12 +84,28 @@
             // 
             this.labelBuscar.AutoSize = true;
             this.labelBuscar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.labelBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.labelBuscar.Location = new System.Drawing.Point(12, 3);
             this.labelBuscar.Name = "labelBuscar";
             this.labelBuscar.Size = new System.Drawing.Size(44, 15);
             this.labelBuscar.TabIndex = 23;
             this.labelBuscar.Text = "Buscar";
+            // 
+            // SWSearch
+            // 
+            this.SWSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.SWSearch.controlID = null;
+            this.SWSearch.EsForania = false;
+            this.SWSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SWSearch.ForeColor = System.Drawing.Color.White;
+            this.SWSearch.Location = new System.Drawing.Point(15, 19);
+            this.SWSearch.Name = "SWSearch";
+            this.SWSearch.NomCamp = "";
+            this.SWSearch.Size = new System.Drawing.Size(100, 20);
+            this.SWSearch.TabIndex = 0;
+            this.SWSearch.Tag = "";
+            this.SWSearch.TipusValor = CustomControls.SWTextBox.TipusDada.Text;
+            this.SWSearch.TextChanged += new System.EventHandler(this.SWSearch_TextChanged);
             // 
             // NewButton
             // 
@@ -149,22 +165,6 @@
             this.DGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGV.Size = new System.Drawing.Size(1320, 588);
             this.DGV.TabIndex = 20;
-            // 
-            // SWSearch
-            // 
-            this.SWSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
-            this.SWSearch.controlID = null;
-            this.SWSearch.EsForania = false;
-            this.SWSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SWSearch.ForeColor = System.Drawing.Color.White;
-            this.SWSearch.Location = new System.Drawing.Point(15, 19);
-            this.SWSearch.Name = "SWSearch";
-            this.SWSearch.NomCamp = "";
-            this.SWSearch.Size = new System.Drawing.Size(100, 20);
-            this.SWSearch.TabIndex = 0;
-            this.SWSearch.Tag = "";
-            this.SWSearch.TipusValor = CustomControls.SWTextBox.TipusDada.Text;
-            this.SWSearch.TextChanged += new System.EventHandler(this.SWSearch_TextChanged);
             // 
             // FormBase
             // 

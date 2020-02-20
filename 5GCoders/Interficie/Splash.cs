@@ -12,6 +12,8 @@ namespace Interficie
 {
     public partial class Splash : Form
     {
+        int Comptador = 0;
+
         public Splash()
         {
             InitializeComponent();
@@ -19,10 +21,9 @@ namespace Interficie
         //EVENT TIMER
         private void progres_Tick(object sender, EventArgs e)
         {
-            progress.PerformStep();
-            percent.Text = progress.Value.ToString() + '%';
+            percent.Text = Comptador.ToString() + '%';
             //ATURAR EL TIMER I REALITZAR LES SEGÜENTS COMANDES QUAN LA BARRA DE PROGRÉS ARRIBI AL SEU MÀXIMS
-            if (progress.Value == progress.Maximum)
+            if (Comptador == 100)
             {
                 progres.Stop();
                 this.Hide();
@@ -30,6 +31,8 @@ namespace Interficie
                 Login L = new Login();
                 L.Show();
             }
+
+            Comptador++;
         }
     }
 }

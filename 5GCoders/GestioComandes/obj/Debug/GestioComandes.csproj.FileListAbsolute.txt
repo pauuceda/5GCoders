@@ -1,3 +1,11 @@
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll.config
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.pdb
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.MestreDetall.resources
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csproj.GenerateResource.cache
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csproj.CopyComplete
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.dll
+C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.pdb
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll.config
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.pdb
@@ -7,11 +15,3 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioC
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.pdb
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll.config
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.dll
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\GestioComandes.pdb
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.MestreDetall.resources
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csproj.GenerateResource.cache
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.csproj.CopyComplete
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.dll
-C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\GestioComandes\obj\Debug\GestioComandes.pdb

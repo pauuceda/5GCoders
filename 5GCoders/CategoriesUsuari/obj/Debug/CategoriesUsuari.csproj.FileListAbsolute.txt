@@ -1,11 +1,3 @@
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\CategoriesUsuari.dll
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\CategoriesUsuari.pdb
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csprojAssemblyReference.cache
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.CategoriesUsuari.resources
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csproj.GenerateResource.cache
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csproj.CopyComplete
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.dll
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.pdb
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\CategoriesUsuari.dll
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\CategoriesUsuari.pdb
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csprojAssemblyReference.cache
@@ -14,3 +6,11 @@ C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\Cat
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csproj.CopyComplete
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.dll
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\CategoriesUsuari.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\CategoriesUsuari.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.CategoriesUsuari.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CategoriesUsuari\obj\Debug\CategoriesUsuari.pdb

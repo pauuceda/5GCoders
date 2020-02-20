@@ -81,7 +81,7 @@
             this.labelDetalls.AutoSize = true;
             this.labelDetalls.BackColor = System.Drawing.Color.Transparent;
             this.labelDetalls.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDetalls.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.labelDetalls.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.labelDetalls.Location = new System.Drawing.Point(33, 9);
             this.labelDetalls.Name = "labelDetalls";
             this.labelDetalls.Size = new System.Drawing.Size(79, 25);
@@ -237,7 +237,7 @@
             this.labelOrdres.AutoSize = true;
             this.labelOrdres.BackColor = System.Drawing.Color.Transparent;
             this.labelOrdres.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelOrdres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.labelOrdres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.labelOrdres.Location = new System.Drawing.Point(44, 9);
             this.labelOrdres.Name = "labelOrdres";
             this.labelOrdres.Size = new System.Drawing.Size(80, 25);

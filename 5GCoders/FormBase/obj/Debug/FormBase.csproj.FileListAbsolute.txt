@@ -1,13 +1,3 @@
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.dll.config
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.dll
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.pdb
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.csprojAssemblyReference.cache
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.FormBase.resources
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.Properties.Resources.resources
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.csproj.GenerateResource.cache
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.csproj.CopyComplete
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.dll
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.pdb
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.dll.config
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.dll
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.pdb
@@ -18,3 +8,13 @@ C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.cs
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.csproj.CopyComplete
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.dll
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.dll.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\Prova.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.FormBase.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.Properties.Resources.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\FormBase.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FormBase\obj\Debug\Prova.pdb

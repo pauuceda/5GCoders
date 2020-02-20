@@ -74,6 +74,7 @@
             // btn_entrar
             // 
             this.btn_entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_entrar.ForeColor = System.Drawing.Color.White;
             this.btn_entrar.Location = new System.Drawing.Point(335, 188);
             this.btn_entrar.Name = "btn_entrar";
             this.btn_entrar.Size = new System.Drawing.Size(75, 23);
@@ -85,7 +86,7 @@
             // tancarAplicacio
             // 
             this.tancarAplicacio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tancarAplicacio.Image = ((System.Drawing.Image)(resources.GetObject("tancarAplicacio.Image")));
+            this.tancarAplicacio.Image = global::Interficie.Properties.Resources.whiteClose;
             this.tancarAplicacio.Location = new System.Drawing.Point(443, 12);
             this.tancarAplicacio.Name = "tancarAplicacio";
             this.tancarAplicacio.Size = new System.Drawing.Size(20, 22);
@@ -119,7 +120,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(289, 161);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 13);
@@ -131,7 +132,7 @@
             this.RegisterLabel.AutoSize = true;
             this.RegisterLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RegisterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(144)))), ((int)(((byte)(156)))));
+            this.RegisterLabel.ForeColor = System.Drawing.Color.White;
             this.RegisterLabel.Location = new System.Drawing.Point(35, 222);
             this.RegisterLabel.Name = "RegisterLabel";
             this.RegisterLabel.Size = new System.Drawing.Size(63, 13);
@@ -143,7 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(475, 270);
             this.ControlBox = false;
             this.Controls.Add(this.RegisterLabel);
