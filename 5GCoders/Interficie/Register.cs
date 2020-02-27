@@ -157,7 +157,7 @@ namespace Interficie
 
             cmd.Connection = connection;
 
-            connection.ConnectionString = ConfigurationManager.ConnectionStrings["championsbbdd"].ConnectionString;
+            connection.ConnectionString = ConfigurationManager.ConnectionStrings["5GCoders"].ConnectionString;
 
             connection.Open();
 

@@ -69,7 +69,7 @@ namespace SQLConnection
         //OBRIR CONNEXIÓ
         private void Connectar()
         {
-            cnx = ConfigurationManager.ConnectionStrings["championsbbdd"].ConnectionString;
+            cnx = ConfigurationManager.ConnectionStrings["5GCoders"].ConnectionString;
             conn = new SqlConnection(cnx);
             conn.Open();
         }

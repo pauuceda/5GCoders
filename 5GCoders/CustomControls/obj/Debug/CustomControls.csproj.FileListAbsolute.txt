@@ -10,7 +10,6 @@ C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\5GCod
 C:\Users\pauuc\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\5GCodersControls.pdb
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\5GCodersControls.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\5GCodersControls.pdb
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\CustomControls.csprojAssemblyReference.cache
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\CustomControls.OpcionsMenu.resources
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\CustomControls.SWComboFK.resources
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\CustomControls.SWTextBox.resources
@@ -18,3 +17,4 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\CustomC
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\CustomControls.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\5GCodersControls.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\5GCodersControls.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\CustomControls\obj\Debug\CustomControls.csprojAssemblyReference.cache

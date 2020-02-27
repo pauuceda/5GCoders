@@ -1,0 +1,4 @@
+C:\Users\admin\source\repos\Targeta de Coordenades\Encryption\bin\Debug\Encryption.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Encryption\bin\Debug\Encryption.pdb
+C:\Users\admin\source\repos\Targeta de Coordenades\Encryption\obj\Debug\Encryption.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Encryption\obj\Debug\Encryption.pdb

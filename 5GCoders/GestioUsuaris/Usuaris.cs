@@ -189,15 +189,24 @@ namespace GestioUsuaris
             IU.BringToFront();
         }
 
-        public static ChampionsEntities CE = new ChampionsEntities();
+        public static Coders5GEntities CE = new Coders5GEntities();
 
         public static List<Users> selectAllUsers()
         {
-            List<Users> _usuaris =
-                (
-                from u in CE.Users
-                select u
-                ).ToList();
+            List<Users> _usuaris = new List<Users>();
+
+            try
+            {
+                _usuaris =
+                    (
+                    from x in CE.Users
+                    select x
+                    ).ToList();
+            }
+            catch (Exception e)
+            {
+
+            }
 
             return _usuaris;
         }
@@ -209,7 +218,7 @@ namespace GestioUsuaris
                 SWPassword.Text = E.EncriptarContrasenya(SWPassword.Text);
             }
 
-            using (ChampionsEntities CE = new ChampionsEntities())
+            using (Coders5GEntities CE = new Coders5GEntities())
             {
                 Users nouUsuari = new Users
                 {
@@ -239,7 +248,7 @@ namespace GestioUsuaris
 
         public void ActualitzarRegistre()
         {
-            using (ChampionsEntities CE = new ChampionsEntities())
+            using (Coders5GEntities CE = new Coders5GEntities())
             {
                 Users Usuari = new Users
                 {

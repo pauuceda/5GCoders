@@ -17,9 +17,6 @@ namespace ORM
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Planets()
         {
-            this.MilitaryCamps = new HashSet<MilitaryCamps>();
-            this.OrdersDetail = new HashSet<OrdersDetail>();
-            this.PlanetRoutes = new HashSet<PlanetRoutes>();
             this.Users = new HashSet<Users>();
         }
     
@@ -37,14 +34,6 @@ namespace ORM
         public string PortPlanet { get; set; }
         public string PortPlanet1 { get; set; }
     
-        public virtual Filiations Filiations { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MilitaryCamps> MilitaryCamps { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<OrdersDetail> OrdersDetail { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PlanetRoutes> PlanetRoutes { get; set; }
-        public virtual Sectors Sectors { get; set; }
         public virtual Species Species { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Users> Users { get; set; }

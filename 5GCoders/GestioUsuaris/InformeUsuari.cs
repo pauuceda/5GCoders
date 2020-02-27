@@ -24,7 +24,7 @@ namespace GestioUsuaris
         {
             UsuarisCrystal usuarisCrystal = new UsuarisCrystal();
 
-            usuarisCrystal.SetDatabaseLogon("champions", "12345aA!");
+            usuarisCrystal.SetDatabaseLogon("5GCoders", "12345aA!");
 
             usuarisCrystal.RecordSelectionFormula = "{Users.idUser} = " + IDUsuari;
 
