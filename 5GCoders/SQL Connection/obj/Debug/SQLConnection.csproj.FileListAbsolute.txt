@@ -6,3 +6,4 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\SQLConnection.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\SQLConnection.pdb
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\SQL Connection\obj\Debug\SQLConnection.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\SQL Connection\obj\Debug\SQLConnection.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\SQL Connection\obj\Debug\SQLConnection.csprojAssemblyReference.cache

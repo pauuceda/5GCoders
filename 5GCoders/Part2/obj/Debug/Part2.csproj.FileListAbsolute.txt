@@ -1,0 +1,35 @@
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Part2.exe.config
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Part2.exe
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Part2.pdb
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.Form1.resources
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.Properties.Resources.resources
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.exe
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.pdb
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Encryption.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Encryption.pdb
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.csproj.CopyComplete
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Connection.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\EntityFramework.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Connection.pdb
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\Connection.dll.config
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\bin\Debug\EntityFramework.xml
+C:\Users\admin\source\repos\Targeta de Coordenades\Part2\obj\Debug\Part2.csproj.CoreCompileInputs.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\obj\Debug\Part2.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\obj\Debug\Part2.Form1.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\obj\Debug\Part2.Properties.Resources.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\obj\Debug\Part2.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\obj\Debug\Part2.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\obj\Debug\Part2.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Part2.exe.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Part2.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Part2.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Connection.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Encriptacio.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\EntityFramework.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Encriptacio.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Connection.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\Connection.dll.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\bin\Debug\EntityFramework.xml
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Part2\obj\Debug\Part2.csproj.CopyComplete

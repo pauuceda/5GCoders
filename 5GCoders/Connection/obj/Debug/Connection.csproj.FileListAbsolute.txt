@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\bin\Debug\Connection.dll.config
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\bin\Debug\Connection.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\bin\Debug\Connection.pdb
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.xml
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connection.csproj.CopyComplete
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connection.dll
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connection.pdb
+C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connection.csprojAssemblyReference.cache
