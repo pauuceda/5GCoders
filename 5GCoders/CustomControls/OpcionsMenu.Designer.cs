@@ -67,7 +67,7 @@ namespace CustomControls
             this.groupBox1.Controls.Add(this.Imatge);
             this.groupBox1.Controls.Add(this.taulaForms);
             this.groupBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Location = new System.Drawing.Point(6, 3);
             this.groupBox1.MaximumSize = new System.Drawing.Size(236, 62);
             this.groupBox1.MinimumSize = new System.Drawing.Size(130, 62);
             this.groupBox1.Name = "groupBox1";

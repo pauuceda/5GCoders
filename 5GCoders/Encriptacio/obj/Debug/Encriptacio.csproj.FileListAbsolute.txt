@@ -9,4 +9,3 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\Encriptacio.pdb
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.pdb
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Encriptacio\obj\Debug\Encriptacio.csprojAssemblyReference.cache

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Encriptacio;
+using Connection;
 
 namespace Interficie
 {
@@ -42,7 +43,7 @@ namespace Interficie
         }
 
         DataSet dts;
-        SQLConnection.BbddChampions bd = new SQLConnection.BbddChampions();
+        SQLConnection bd = new SQLConnection();
         string consulta;
         //FUNCIÓ PER COMPROVAR QUE L'USUARI I LA CONTRASENYA COINCIDEIXEN EN UN ÚNIC REGISTRE DINS DE LA BASE DE DADES
         public void Entrar()
@@ -55,7 +56,7 @@ namespace Interficie
                         "FROM USERS " +
                         "WHERE LOGIN = '" + textb_user.Text + "'";
 
-            dts = bd.PortarPerConsulta(consulta);
+            dts = bd.PortarTaula(consulta);
 
             if (dts.Tables[0].Rows.Count == 1)
             {
@@ -67,7 +68,7 @@ namespace Interficie
                                "FROM USERS, USERCATEGORIES " +
                                "WHERE USERCATEGORIES.IDUSERCATEGORY = USERS.IDUSERCATEGORY AND USERS.IDUSER = " + dts.Tables[0].Rows[0][0];
 
-                    dts = bd.PortarPerConsulta(consulta);
+                    dts = bd.PortarTaula(consulta);
 
                     Menu M = new Menu(dts.Tables[0].Rows[0][0].ToString(), dts.Tables[0].Rows[0][1].ToString(), dts.Tables[0].Rows[0][2].ToString(), dts.Tables[0].Rows[0][4].ToString(), dts.Tables[0].Rows[0][5].ToString());
 

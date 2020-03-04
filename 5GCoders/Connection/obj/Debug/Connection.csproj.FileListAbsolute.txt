@@ -9,3 +9,25 @@ C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connecti
 C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connection.dll
 C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connection.pdb
 C:\Users\admin\source\repos\Targeta de Coordenades\Connection\obj\Debug\Connection.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\bin\Debug\Connection.dll.config
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\bin\Debug\Connection.dll
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\bin\Debug\Connection.pdb
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\obj\Debug\Connection.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\obj\Debug\Connection.csproj.CopyComplete
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\obj\Debug\Connection.dll
+C:\Users\admin\Desktop\Targeta de Coordenades\Connection\obj\Debug\Connection.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\EntityFramework.xml
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\Connection.dll.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\Connection.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\Connection.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\EntityFramework.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.pdb

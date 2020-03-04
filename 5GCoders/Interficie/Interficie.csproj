@@ -130,6 +130,10 @@
       <Project>{6ff13bf2-f0f1-4113-875c-32faa6cf62fd}</Project>
       <Name>CategoriesUsuari</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{317535ed-3d11-4269-a6b2-5a280e94d24e}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CustomControls\CustomControls.csproj">
       <Project>{8ceff570-7874-4639-afaa-57ddc39202f6}</Project>
       <Name>CustomControls</Name>
@@ -157,10 +161,6 @@
     <ProjectReference Include="..\PerfilUsuari\PerfilUsuari.csproj">
       <Project>{4be86dca-eb37-4703-9f22-91f2369793e9}</Project>
       <Name>PerfilUsuari</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SQL Connection\SQLConnection.csproj">
-      <Project>{ebc415f1-5c97-4fd2-b86b-b1982c8f25f0}</Project>
-      <Name>SQLConnection</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

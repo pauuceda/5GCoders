@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CustomControls;
 using Encriptacio;
+using Connection;
 
 namespace Prova
 {
@@ -20,7 +21,7 @@ namespace Prova
         }
 
         Encriptar E = new Encriptar();
-        SQLConnection.BbddChampions bd = new SQLConnection.BbddChampions();
+        SQLConnection bd = new SQLConnection();
         DataSet dts;
         DataRow dr;
 
@@ -75,7 +76,7 @@ namespace Prova
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            bd.Actualitzar(query, dts);
+            bd.Actualitzar(dts, query);
             CarregarDades();
             BindejarDades();
 
@@ -114,7 +115,7 @@ namespace Prova
             //AFEGIR FILA AL DATASET
             dts.Tables[0].Rows.Add(dr);
 
-            bd.Actualitzar(query, dts);
+            bd.Actualitzar(dts, query);
             CarregarDades();
             BindejarDades();
 
@@ -133,7 +134,7 @@ namespace Prova
             try
             {
                 query = "SELECT * FROM " + Taula;
-                dts = bd.PortarPerConsulta(query);
+                dts = bd.PortarTaula(query);
                 DGV.DataSource = dts.Tables[0];
 
                 DGV.Columns[0].Visible = false;

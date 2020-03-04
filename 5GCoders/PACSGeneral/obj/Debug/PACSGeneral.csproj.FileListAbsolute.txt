@@ -1,0 +1,10 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\bin\Debug\PACSGeneral.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\bin\Debug\PACSGeneral.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\PACSGeneral.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\PACSGeneral.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\obj\Debug\PACSGeneral.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\obj\Debug\PACSGeneral.PACS.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\obj\Debug\PACSGeneral.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\obj\Debug\PACSGeneral.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\obj\Debug\PACSGeneral.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSGeneral\obj\Debug\PACSGeneral.pdb

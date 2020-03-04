@@ -10,13 +10,13 @@ using System.Windows.Forms;
 using ORM;
 using Prova;
 using CustomControls;
-using SQLConnection;
+using Connection;
 
 namespace GestioComandes
 {
     public partial class MestreDetall : Form
     {
-        SQLConnection.BbddChampions bd = new SQLConnection.BbddChampions();
+        SQLConnection bd = new SQLConnection();
         DataSet dtsOrders, dtsDetails;
         DataRow dr;
 
@@ -34,11 +34,11 @@ namespace GestioComandes
             try
             {
                 query = "SELECT * FROM ORDERS";
-                dtsOrders = bd.PortarPerConsulta(query);
+                dtsOrders = bd.PortarTaula(query);
                 DGVMestre.DataSource = dtsOrders.Tables[0];
 
                 query = "SELECT * FROM ORDERSDETAIL";
-                dtsDetails = bd.PortarPerConsulta(query);
+                dtsDetails = bd.PortarTaula(query);
                 DGVDetall.DataSource = dtsDetails.Tables[0];
             }
             catch (Exception)
@@ -145,7 +145,7 @@ namespace GestioComandes
             //AFEGIR FILA AL DATASET
             dtsOrders.Tables[0].Rows.Add(dr);
 
-            bd.Actualitzar(query, dtsOrders);
+            bd.Actualitzar(dtsOrders, query);
             CarregarDades();
             BindejarDades(PanelOrder, dtsOrders);
 

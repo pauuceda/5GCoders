@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SQLConnection;
+using Connection;
 using CustomControls;
 using Encriptacio;
 using System.Data.SqlClient;
@@ -157,7 +157,7 @@ namespace Interficie
 
             cmd.Connection = connection;
 
-            connection.ConnectionString = ConfigurationManager.ConnectionStrings["championsbbdd"].ConnectionString;
+            connection.ConnectionString = ConfigurationManager.ConnectionStrings["5gcoders"].ConnectionString;
 
             connection.Open();
 
@@ -176,12 +176,12 @@ namespace Interficie
 
         private bool UserExists(string UserLogin)
         {
-            BbddChampions bd = new BbddChampions();
+            SQLConnection bd = new SQLConnection();
             DataSet dts = new DataSet();
             consultaLogins = "SELECT LOGIN FROM USERS";
             bool Exists = false;
 
-            dts = bd.PortarPerConsulta(consultaLogins);
+            dts = bd.PortarTaula(consultaLogins);
 
             for (int i = 0; i < dts.Tables[0].Rows.Count - 1; i++)
             {

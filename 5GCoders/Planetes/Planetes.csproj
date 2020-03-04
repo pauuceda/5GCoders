@@ -53,6 +53,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{317535ed-3d11-4269-a6b2-5a280e94d24e}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CustomControls\CustomControls.csproj">
       <Project>{8ceff570-7874-4639-afaa-57ddc39202f6}</Project>
       <Name>CustomControls</Name>
@@ -60,10 +64,6 @@
     <ProjectReference Include="..\FormBase\FormBase.csproj">
       <Project>{66755a72-a773-454e-8640-cc5eaf2a63aa}</Project>
       <Name>FormBase</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SQL Connection\SQLConnection.csproj">
-      <Project>{EBC415F1-5C97-4FD2-B86B-B1982C8F25F0}</Project>
-      <Name>SQLConnection</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

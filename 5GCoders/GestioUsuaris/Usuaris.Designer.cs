@@ -489,6 +489,7 @@
             this.DGV.AutoGenerateColumns = false;
             this.DGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DGV.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.DGV.BackgroundColor = System.Drawing.Color.White;
             this.DGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -504,6 +505,7 @@
             this.dataGridViewTextBoxColumn66});
             this.DGV.DataSource = this.ORMSource;
             this.DGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.DGV.GridColor = System.Drawing.Color.DarkGray;
             this.DGV.Location = new System.Drawing.Point(15, 15);
             this.DGV.MultiSelect = false;
             this.DGV.Name = "DGV";

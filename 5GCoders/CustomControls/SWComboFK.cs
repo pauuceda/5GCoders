@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Connection;
 
 namespace CustomControls
 {
@@ -38,9 +39,9 @@ namespace CustomControls
             string query = "SELECT * FROM " + Taula;
 
             DataSet dtSet = new DataSet();
-            SQLConnection.BbddChampions bd = new SQLConnection.BbddChampions();
+            SQLConnection bd = new SQLConnection();
             
-            dtSet = bd.PortarPerConsulta(query);
+            dtSet = bd.PortarTaula(query);
             this.DataSource = dtSet.Tables[0];
         }
 

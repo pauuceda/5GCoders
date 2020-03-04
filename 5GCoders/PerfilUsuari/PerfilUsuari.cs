@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.IO;
+using System.Windows.Forms;
 
 namespace PerfilUsuari
 {
@@ -22,14 +16,14 @@ namespace PerfilUsuari
             ID = IDUsuari;
         }
 
-        SQLConnection.BbddChampions bd = new SQLConnection.BbddChampions();
+        Connection.SQLConnection bd = new Connection.SQLConnection();
         DataSet dts = new DataSet();
         string consulta;
 
         private void PerfilUsuari_Load(object sender, EventArgs e)
         {
             consulta = "SELECT USERNAME, LOGIN, PHOTO FROM USERS WHERE IDUSER = " + ID;
-            dts = bd.PortarPerConsulta(consulta);
+            dts = bd.PortarTaula(consulta);
 
             Nom.Text = dts.Tables[0].Rows[0][0].ToString();
             userName.Text = "@" + dts.Tables[0].Rows[0][1].ToString();

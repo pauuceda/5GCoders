@@ -1,0 +1,10 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\bin\Debug\PACSSpaceship.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\bin\Debug\PACSSpaceship.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\PACSSpaceship.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\PACSSpaceship.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\obj\Debug\PACSSpaceship.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\obj\Debug\PACSSpaceship.Spaceship.resources
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\obj\Debug\PACSSpaceship.csproj.GenerateResource.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\obj\Debug\PACSSpaceship.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\obj\Debug\PACSSpaceship.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSSpaceship\obj\Debug\PACSSpaceship.pdb

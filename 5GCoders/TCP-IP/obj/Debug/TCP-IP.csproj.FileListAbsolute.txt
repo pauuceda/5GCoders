@@ -1,0 +1,5 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\TCP-IP\bin\Debug\TCP-IP.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\TCP-IP\bin\Debug\TCP-IP.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\TCP-IP\obj\Debug\TCP-IP.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\TCP-IP\obj\Debug\TCP-IP.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\TCP-IP\obj\Debug\TCP-IP.pdb

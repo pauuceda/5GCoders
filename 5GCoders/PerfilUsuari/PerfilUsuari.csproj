@@ -60,5 +60,11 @@
       <DependentUpon>PerfilUsuari.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{317535ed-3d11-4269-a6b2-5a280e94d24e}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

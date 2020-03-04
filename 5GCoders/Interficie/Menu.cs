@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Connection;
+using CustomControls;
+using System;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using System.Data.Common;
-using CustomControls;
-using System.Text.RegularExpressions;
 using System.IO;
+using System.Windows.Forms;
 
 namespace Interficie
 {
@@ -166,7 +159,7 @@ namespace Interficie
             {
                 foreach (GroupBox groupBox in ctrl.Controls)
                 {
-                    groupBox.Width -= 14;
+                    groupBox.Width -= 20;
                 }
             }
         }
@@ -197,11 +190,11 @@ namespace Interficie
             }
 
             DataSet dtsMenu;
-            SQLConnection.BbddChampions bd = new SQLConnection.BbddChampions();
+            SQLConnection bd = new SQLConnection();
 
             string consulta = "SELECT * FROM FORMS WHERE RANG <= " + Int32.Parse(AccessLevel) + " ORDER BY FORMS.ID DESC;";
 
-            dtsMenu = bd.PortarPerConsulta(consulta);
+            dtsMenu = bd.PortarTaula(consulta);
 
             foreach (DataRow dr in dtsMenu.Tables[0].Rows)
             {

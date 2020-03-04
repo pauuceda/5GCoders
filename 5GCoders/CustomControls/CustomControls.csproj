@@ -74,9 +74,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SQL Connection\SQLConnection.csproj">
-      <Project>{ebc415f1-5c97-4fd2-b86b-b1982c8f25f0}</Project>
-      <Name>SQLConnection</Name>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{317535ed-3d11-4269-a6b2-5a280e94d24e}</Project>
+      <Name>Connection</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
