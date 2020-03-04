@@ -19,23 +19,18 @@ namespace PACSPlanet
         Dictionary<string, string> dictCoord = new Dictionary<string, string>();
         SQLConnection SQL = new SQLConnection();
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void CarregaInicial()
         {
             EncryptionClass encryption = new EncryptionClass();
 
-            for (int i = 0; i < c.Length; i++)
-            {
+            //for (int i = 0; i < c.Length; i++)
+            //{
                 for (int j = 1; j <= 5; j++)
                 {
                     coordinate = encryption.RandomString(5, true);
 
-                    dictCoord.Add(c[i] + j.ToString(), coordinate);
+                    dictCoord.Add(c[j - 1] + j.ToString(), coordinate);
                 }
-            }
-
-            //foreach (KeyValuePair<string, string> item in dictCoord)
-            //{
-            //    textBox1.Text += item.Key + " = " + item.Value + "\n";
             //}
         }
 
@@ -84,6 +79,11 @@ namespace PACSPlanet
                 query = "INSERT INTO INNERENCRYPTION(IDPLANET) VALUES(" + idPlanet + ")";
                 SQL.SQLCommand(query);
             }
+        }
+
+        private void Planet_Load(object sender, EventArgs e)
+        {
+            CarregaInicial();
         }
     }
 }

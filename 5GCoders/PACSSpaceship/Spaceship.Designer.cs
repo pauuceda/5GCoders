@@ -36,14 +36,14 @@
             // 
             this.ComboPlanets.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboPlanets.FormattingEnabled = true;
-            this.ComboPlanets.Location = new System.Drawing.Point(243, 201);
+            this.ComboPlanets.Location = new System.Drawing.Point(219, 307);
             this.ComboPlanets.Name = "ComboPlanets";
             this.ComboPlanets.Size = new System.Drawing.Size(121, 21);
             this.ComboPlanets.TabIndex = 0;
             // 
             // SendButton
             // 
-            this.SendButton.Location = new System.Drawing.Point(388, 201);
+            this.SendButton.Location = new System.Drawing.Point(364, 307);
             this.SendButton.Name = "SendButton";
             this.SendButton.Size = new System.Drawing.Size(85, 23);
             this.SendButton.TabIndex = 1;

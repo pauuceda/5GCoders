@@ -60,6 +60,10 @@
       <Project>{939a503a-09b9-47b8-8b0e-ffd19bd1a82e}</Project>
       <Name>Encriptacio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PACSPlanet\PACSPlanet.csproj">
+      <Project>{c4ed4278-8fe4-481b-b2f1-26544d56cd99}</Project>
+      <Name>PACSPlanet</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Spaceship.resx">

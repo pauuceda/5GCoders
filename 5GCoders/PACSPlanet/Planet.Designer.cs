@@ -55,6 +55,7 @@
             this.MinimumSize = new System.Drawing.Size(675, 700);
             this.Name = "Planet";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Planet_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
