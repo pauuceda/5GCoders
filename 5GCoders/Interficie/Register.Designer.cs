@@ -375,6 +375,7 @@
             this.Controls.Add(this.SWNomUsuari);
             this.Controls.Add(this.SWCodeUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(650, 275);
             this.MinimumSize = new System.Drawing.Size(650, 275);
             this.Name = "Register";

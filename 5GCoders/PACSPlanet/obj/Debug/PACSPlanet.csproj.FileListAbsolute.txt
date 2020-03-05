@@ -9,9 +9,9 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\bin\Debug\Encriptacio
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\bin\Debug\EntityFramework.xml
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\PACSPlanet.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\DLL\PACSPlanet.pdb
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\obj\Debug\PACSPlanet.csprojAssemblyReference.cache
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\obj\Debug\PACSPlanet.Planet.resources
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\obj\Debug\PACSPlanet.csproj.GenerateResource.cache
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\obj\Debug\PACSPlanet.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\obj\Debug\PACSPlanet.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\obj\Debug\PACSPlanet.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\PACSPlanet\obj\Debug\PACSPlanet.csprojAssemblyReference.cache

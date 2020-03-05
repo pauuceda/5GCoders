@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Windows.Forms;
+using TCP_IP;
 
 namespace PACSPlanet
 {
@@ -18,20 +19,27 @@ namespace PACSPlanet
         char[] c = { 'A', 'B', 'C', 'D' };
         Dictionary<string, string> dictCoord = new Dictionary<string, string>();
         SQLConnection SQL = new SQLConnection();
+        TCPClass TCPServer = new TCPClass();
+
+        private void Planet_Load(object sender, EventArgs e)
+        {
+            CarregaInicial();
+            TCPServer.StartServer();
+        }
 
         private void CarregaInicial()
         {
             EncryptionClass encryption = new EncryptionClass();
 
-            //for (int i = 0; i < c.Length; i++)
-            //{
+            for (int i = 0; i < c.Length; i++)
+            {
                 for (int j = 1; j <= 5; j++)
                 {
                     coordinate = encryption.RandomString(5, true);
 
-                    dictCoord.Add(c[j - 1] + j.ToString(), coordinate);
+                    dictCoord.Add(c[i] + j.ToString(), coordinate);
                 }
-            //}
+            }
         }
 
         private void StoreCoordinates(ComboBox ComboSpaceship, Dictionary<string, string> coordinates)
@@ -79,11 +87,6 @@ namespace PACSPlanet
                 query = "INSERT INTO INNERENCRYPTION(IDPLANET) VALUES(" + idPlanet + ")";
                 SQL.SQLCommand(query);
             }
-        }
-
-        private void Planet_Load(object sender, EventArgs e)
-        {
-            CarregaInicial();
         }
     }
 }

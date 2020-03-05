@@ -1,0 +1,14 @@
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\ServerConsole.exe.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\ServerConsole.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\ServerConsole.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\Connection.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\TCP-IP.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\EntityFramework.dll
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\Connection.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\Connection.dll.config
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\TCP-IP.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\bin\Debug\EntityFramework.xml
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\obj\Debug\ServerConsole.csprojAssemblyReference.cache
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\obj\Debug\ServerConsole.csproj.CopyComplete
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\obj\Debug\ServerConsole.exe
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\ServerConsole\obj\Debug\ServerConsole.pdb

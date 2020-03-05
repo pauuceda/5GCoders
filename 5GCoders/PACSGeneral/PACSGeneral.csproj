@@ -57,6 +57,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{317535ed-3d11-4269-a6b2-5a280e94d24e}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PACSPlanet\PACSPlanet.csproj">
       <Project>{c4ed4278-8fe4-481b-b2f1-26544d56cd99}</Project>
       <Name>PACSPlanet</Name>

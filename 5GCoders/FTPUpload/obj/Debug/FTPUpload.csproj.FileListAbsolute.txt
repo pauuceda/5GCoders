@@ -15,3 +15,4 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.Pr
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.csproj.GenerateResource.cache
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.exe
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\FTPUpload\obj\Debug\FTPUpload.csprojAssemblyReference.cache

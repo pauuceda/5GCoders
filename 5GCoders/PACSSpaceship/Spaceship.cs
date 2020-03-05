@@ -8,6 +8,7 @@ using System.Xml;
 using System.Text;
 using System.Security.Cryptography;
 using PACSPlanet;
+using TCP_IP;
 
 namespace PACSSpaceship
 {
@@ -20,6 +21,7 @@ namespace PACSSpaceship
 
         EncryptionClass E = new EncryptionClass();
         SQLConnection SQL;
+        TCPClass TCPClient = new TCPClass();
         char[] c = { 'A', 'B', 'C', 'D' };
         Dictionary<string, string> coordinates;
         XmlDocument XMLDocument = new XmlDocument();
@@ -52,6 +54,8 @@ namespace PACSSpaceship
                 UploadValidationCode(id, validationCode);
                 UploadCoordinates(id, coordinates);
                 UploadPublicKey(id, publicKey);
+
+                TCPClient.StartClient();
 
                 MessageBox.Show("Done", "5G Coders", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -213,6 +217,11 @@ namespace PACSSpaceship
                 Console.WriteLine(e.Message);
                 return null;
             }
+        }
+
+        private void ComboPlanets_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
         //Funció per desencriptar

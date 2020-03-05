@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using PACSPlanet;
 using PACSSpaceship;
+using Connection;
+using System.Data;
 
 namespace PACSGeneral
 {
@@ -19,19 +14,69 @@ namespace PACSGeneral
             InitializeComponent();
         }
 
+        int idPlanet;
+
         private void PACS_Load(object sender, EventArgs e)
         {
-            Planet P = new Planet();
-            Spaceship S = new Spaceship();
+            LoadPlanets(ComboPlanets);
+        }
 
-            P.TopLevel = false;
+        bool FormObert = false;
+
+        private void PlanetButton_Click(object sender, EventArgs e)
+        {
+            foreach (Form item in Application.OpenForms)
+            {
+                if (item.Name == "Planet")
+                {
+                    FormObert = true;
+                    break;
+                }
+            }
+
+            if (!FormObert)
+            {
+                Planet P = new Planet();
+                P.TopLevel = false;
+                PanelGeneral.Controls.Add(P);
+                P.Show();
+
+                PlanetButton.Dispose();
+                SpaceshipButton.Dispose();
+            }
+        }
+
+        private void SpaceshipButton_Click(object sender, EventArgs e)
+        {
+            Spaceship S = new Spaceship();
             S.TopLevel = false;
-            PanelPlanet.Controls.Add(P);
-            PanelSpaceship.Controls.Add(S);
-            P.Show();
+            PanelGeneral.Controls.Add(S);
             S.Show();
-            P.BringToFront();
-            S.BringToFront();
+
+            PlanetButton.Dispose();
+            SpaceshipButton.Dispose();
+        }
+
+        private void LoadPlanets(ComboBox ComboPlanet)
+        {
+            SQLConnection SQL = new SQLConnection();
+            string query = "SELECT IDPLANET, DESCPLANET FROM PLANETS";
+            DataSet dts = SQL.PortarTaula(query);
+
+            ComboPlanet.DataSource = dts.Tables[0];
+            ComboPlanet.ValueMember = "idPlanet";
+            ComboPlanet.DisplayMember = "DescPlanet";
+        }
+
+        private void SendButton_Click(object sender, EventArgs e)
+        {
+            idPlanet = (int)ComboPlanets.SelectedValue;
+
+            ComboPlanets.Dispose();
+            SendButton.Dispose();
+
+            PlanetButton.Visible = true;
+            SpaceshipButton.Visible = true;
         }
     }
 }

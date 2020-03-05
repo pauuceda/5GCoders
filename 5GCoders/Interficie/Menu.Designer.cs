@@ -33,12 +33,18 @@
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.profile = new System.Windows.Forms.GroupBox();
+            this.MoreOptionsB = new System.Windows.Forms.PictureBox();
             this.lbl_user = new System.Windows.Forms.Label();
+            this.img_profile = new System.Windows.Forms.PictureBox();
             this.lbl_name = new System.Windows.Forms.Label();
+            this.logo = new System.Windows.Forms.PictureBox();
             this.moreOptions = new System.Windows.Forms.Panel();
             this.tancarSessioB = new System.Windows.Forms.Button();
             this.veurePerfilB = new System.Windows.Forms.Button();
             this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.iconminimizar = new System.Windows.Forms.PictureBox();
+            this.iconcerrar = new System.Windows.Forms.PictureBox();
+            this.btnslide = new System.Windows.Forms.PictureBox();
             this.data = new System.Windows.Forms.Timer(this.components);
             this.PanelAbajo = new System.Windows.Forms.Panel();
             this.PanelHora = new System.Windows.Forms.Panel();
@@ -47,24 +53,18 @@
             this.opcions = new System.Windows.Forms.Timer(this.components);
             this.swipeMenu = new System.Windows.Forms.Timer(this.components);
             this.imatge = new System.Windows.Forms.Timer(this.components);
-            this.iconminimizar = new System.Windows.Forms.PictureBox();
-            this.iconcerrar = new System.Windows.Forms.PictureBox();
-            this.btnslide = new System.Windows.Forms.PictureBox();
-            this.MoreOptionsB = new System.Windows.Forms.PictureBox();
-            this.img_profile = new System.Windows.Forms.PictureBox();
-            this.logo = new System.Windows.Forms.PictureBox();
             this.MenuVertical.SuspendLayout();
             this.profile.SuspendLayout();
-            this.moreOptions.SuspendLayout();
-            this.BarraTitulo.SuspendLayout();
-            this.PanelAbajo.SuspendLayout();
-            this.PanelHora.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnslide)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MoreOptionsB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_profile)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.moreOptions.SuspendLayout();
+            this.BarraTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnslide)).BeginInit();
+            this.PanelAbajo.SuspendLayout();
+            this.PanelHora.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuVertical
@@ -103,6 +103,18 @@
             this.profile.TabStop = false;
             this.profile.Click += new System.EventHandler(this.EventTancarOpcions);
             // 
+            // MoreOptionsB
+            // 
+            this.MoreOptionsB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MoreOptionsB.Image = ((System.Drawing.Image)(resources.GetObject("MoreOptionsB.Image")));
+            this.MoreOptionsB.Location = new System.Drawing.Point(201, 14);
+            this.MoreOptionsB.Name = "MoreOptionsB";
+            this.MoreOptionsB.Size = new System.Drawing.Size(25, 25);
+            this.MoreOptionsB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MoreOptionsB.TabIndex = 2;
+            this.MoreOptionsB.TabStop = false;
+            this.MoreOptionsB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.MoreOptionsB_MouseClick);
+            // 
             // lbl_user
             // 
             this.lbl_user.AutoSize = true;
@@ -115,6 +127,17 @@
             this.lbl_user.TabIndex = 1;
             this.lbl_user.Text = "user";
             this.lbl_user.Click += new System.EventHandler(this.EventTancarOpcions);
+            // 
+            // img_profile
+            // 
+            this.img_profile.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.img_profile.Location = new System.Drawing.Point(20, 14);
+            this.img_profile.Name = "img_profile";
+            this.img_profile.Size = new System.Drawing.Size(87, 78);
+            this.img_profile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.img_profile.TabIndex = 0;
+            this.img_profile.TabStop = false;
+            this.img_profile.Click += new System.EventHandler(this.EventTancarOpcions);
             // 
             // lbl_name
             // 
@@ -130,6 +153,18 @@
             this.lbl_name.Text = "nom";
             this.lbl_name.Click += new System.EventHandler(this.EventTancarOpcions);
             // 
+            // logo
+            // 
+            this.logo.BackColor = System.Drawing.Color.Transparent;
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Location = new System.Drawing.Point(0, 0);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(250, 79);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo.TabIndex = 0;
+            this.logo.TabStop = false;
+            this.logo.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // moreOptions
             // 
             this.moreOptions.BackColor = System.Drawing.Color.White;
@@ -138,14 +173,15 @@
             this.moreOptions.Location = new System.Drawing.Point(3, -2);
             this.moreOptions.MaximumSize = new System.Drawing.Size(200, 100);
             this.moreOptions.Name = "moreOptions";
-            this.moreOptions.Size = new System.Drawing.Size(200, 88);
+            this.moreOptions.Size = new System.Drawing.Size(200, 90);
             this.moreOptions.TabIndex = 6;
             // 
             // tancarSessioB
             // 
             this.tancarSessioB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.tancarSessioB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tancarSessioB.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.tancarSessioB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.tancarSessioB.FlatAppearance.BorderSize = 2;
             this.tancarSessioB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tancarSessioB.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tancarSessioB.ForeColor = System.Drawing.Color.White;
@@ -161,7 +197,8 @@
             // 
             this.veurePerfilB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.veurePerfilB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.veurePerfilB.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.veurePerfilB.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.veurePerfilB.FlatAppearance.BorderSize = 2;
             this.veurePerfilB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.veurePerfilB.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.veurePerfilB.ForeColor = System.Drawing.Color.White;
@@ -185,6 +222,44 @@
             this.BarraTitulo.Size = new System.Drawing.Size(1350, 60);
             this.BarraTitulo.TabIndex = 1;
             this.BarraTitulo.Click += new System.EventHandler(this.BarraTitulo_Click);
+            // 
+            // iconminimizar
+            // 
+            this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconminimizar.Image = global::Interficie.Properties.Resources.minimize;
+            this.iconminimizar.Location = new System.Drawing.Point(1296, 12);
+            this.iconminimizar.Name = "iconminimizar";
+            this.iconminimizar.Size = new System.Drawing.Size(17, 17);
+            this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconminimizar.TabIndex = 5;
+            this.iconminimizar.TabStop = false;
+            this.iconminimizar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.iconminimizar_MouseClick);
+            // 
+            // iconcerrar
+            // 
+            this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconcerrar.Image = global::Interficie.Properties.Resources.close;
+            this.iconcerrar.Location = new System.Drawing.Point(1320, 12);
+            this.iconcerrar.Name = "iconcerrar";
+            this.iconcerrar.Size = new System.Drawing.Size(17, 17);
+            this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iconcerrar.TabIndex = 2;
+            this.iconcerrar.TabStop = false;
+            this.iconcerrar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.iconcerrar_MouseClick);
+            // 
+            // btnslide
+            // 
+            this.btnslide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnslide.Image = ((System.Drawing.Image)(resources.GetObject("btnslide.Image")));
+            this.btnslide.Location = new System.Drawing.Point(6, 12);
+            this.btnslide.Name = "btnslide";
+            this.btnslide.Size = new System.Drawing.Size(42, 35);
+            this.btnslide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnslide.TabIndex = 1;
+            this.btnslide.TabStop = false;
+            this.btnslide.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnslide_MouseClick);
             // 
             // data
             // 
@@ -257,79 +332,6 @@
             this.imatge.Interval = 1;
             this.imatge.Tick += new System.EventHandler(this.imatge_Tick);
             // 
-            // iconminimizar
-            // 
-            this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconminimizar.Image = global::Interficie.Properties.Resources.minimize;
-            this.iconminimizar.Location = new System.Drawing.Point(1296, 12);
-            this.iconminimizar.Name = "iconminimizar";
-            this.iconminimizar.Size = new System.Drawing.Size(17, 17);
-            this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconminimizar.TabIndex = 5;
-            this.iconminimizar.TabStop = false;
-            this.iconminimizar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.iconminimizar_MouseClick);
-            // 
-            // iconcerrar
-            // 
-            this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconcerrar.Image = global::Interficie.Properties.Resources.close;
-            this.iconcerrar.Location = new System.Drawing.Point(1320, 12);
-            this.iconcerrar.Name = "iconcerrar";
-            this.iconcerrar.Size = new System.Drawing.Size(17, 17);
-            this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconcerrar.TabIndex = 2;
-            this.iconcerrar.TabStop = false;
-            this.iconcerrar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.iconcerrar_MouseClick);
-            // 
-            // btnslide
-            // 
-            this.btnslide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnslide.Image = ((System.Drawing.Image)(resources.GetObject("btnslide.Image")));
-            this.btnslide.Location = new System.Drawing.Point(6, 12);
-            this.btnslide.Name = "btnslide";
-            this.btnslide.Size = new System.Drawing.Size(42, 35);
-            this.btnslide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnslide.TabIndex = 1;
-            this.btnslide.TabStop = false;
-            this.btnslide.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnslide_MouseClick);
-            // 
-            // MoreOptionsB
-            // 
-            this.MoreOptionsB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MoreOptionsB.Image = ((System.Drawing.Image)(resources.GetObject("MoreOptionsB.Image")));
-            this.MoreOptionsB.Location = new System.Drawing.Point(201, 14);
-            this.MoreOptionsB.Name = "MoreOptionsB";
-            this.MoreOptionsB.Size = new System.Drawing.Size(25, 25);
-            this.MoreOptionsB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MoreOptionsB.TabIndex = 2;
-            this.MoreOptionsB.TabStop = false;
-            this.MoreOptionsB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.MoreOptionsB_MouseClick);
-            // 
-            // img_profile
-            // 
-            this.img_profile.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.img_profile.Location = new System.Drawing.Point(20, 14);
-            this.img_profile.Name = "img_profile";
-            this.img_profile.Size = new System.Drawing.Size(87, 78);
-            this.img_profile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.img_profile.TabIndex = 0;
-            this.img_profile.TabStop = false;
-            this.img_profile.Click += new System.EventHandler(this.EventTancarOpcions);
-            // 
-            // logo
-            // 
-            this.logo.BackColor = System.Drawing.Color.Transparent;
-            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(0, 0);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(250, 79);
-            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logo.TabIndex = 0;
-            this.logo.TabStop = false;
-            this.logo.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -348,22 +350,23 @@
             this.MinimumSize = new System.Drawing.Size(1598, 858);
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Menu_FormClosed);
             this.Load += new System.EventHandler(this.Menu_Load);
             this.MenuVertical.ResumeLayout(false);
             this.profile.ResumeLayout(false);
             this.profile.PerformLayout();
-            this.moreOptions.ResumeLayout(false);
-            this.BarraTitulo.ResumeLayout(false);
-            this.PanelAbajo.ResumeLayout(false);
-            this.PanelHora.ResumeLayout(false);
-            this.PanelHora.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnslide)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MoreOptionsB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_profile)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            this.moreOptions.ResumeLayout(false);
+            this.BarraTitulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnslide)).EndInit();
+            this.PanelAbajo.ResumeLayout(false);
+            this.PanelHora.ResumeLayout(false);
+            this.PanelHora.PerformLayout();
             this.ResumeLayout(false);
 
         }

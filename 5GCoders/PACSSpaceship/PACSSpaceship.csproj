@@ -64,6 +64,10 @@
       <Project>{c4ed4278-8fe4-481b-b2f1-26544d56cd99}</Project>
       <Name>PACSPlanet</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TCP-IP\TCP-IP.csproj">
+      <Project>{b4479785-1096-4c00-bec1-dcda49e7e38c}</Project>
+      <Name>TCP-IP</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Spaceship.resx">

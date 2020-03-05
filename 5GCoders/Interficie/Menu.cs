@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace Interficie
 {
@@ -21,11 +22,6 @@ namespace Interficie
             User = nomUser;
             AccessLevel = accessLevel;
             Foto = Photo;
-        }
-
-        private void btnslide_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void decorarOpcions()

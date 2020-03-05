@@ -27,7 +27,7 @@ C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\Connection.
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\EntityFramework.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.csprojAssemblyReference.cache
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.csproj.CopyComplete
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.dll
 C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.pdb
+C:\Users\Pau\Documents\GitHub\5GCoders\5GCoders\Connection\obj\Debug\Connection.csprojAssemblyReference.cache

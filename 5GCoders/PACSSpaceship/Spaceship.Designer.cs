@@ -36,14 +36,15 @@
             // 
             this.ComboPlanets.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboPlanets.FormattingEnabled = true;
-            this.ComboPlanets.Location = new System.Drawing.Point(219, 307);
+            this.ComboPlanets.Location = new System.Drawing.Point(535, 251);
             this.ComboPlanets.Name = "ComboPlanets";
             this.ComboPlanets.Size = new System.Drawing.Size(121, 21);
             this.ComboPlanets.TabIndex = 0;
+            this.ComboPlanets.SelectedIndexChanged += new System.EventHandler(this.ComboPlanets_SelectedIndexChanged);
             // 
             // SendButton
             // 
-            this.SendButton.Location = new System.Drawing.Point(364, 307);
+            this.SendButton.Location = new System.Drawing.Point(680, 251);
             this.SendButton.Name = "SendButton";
             this.SendButton.Size = new System.Drawing.Size(85, 23);
             this.SendButton.TabIndex = 1;
@@ -56,14 +57,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(675, 700);
+            this.ClientSize = new System.Drawing.Size(1350, 700);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.ComboPlanets);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(675, 700);
+            this.MaximumSize = new System.Drawing.Size(1350, 700);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(675, 700);
+            this.MinimumSize = new System.Drawing.Size(1350, 700);
             this.Name = "Spaceship";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Spaceship_Load);

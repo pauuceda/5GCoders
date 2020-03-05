@@ -60,6 +60,10 @@
       <Project>{939a503a-09b9-47b8-8b0e-ffd19bd1a82e}</Project>
       <Name>Encriptacio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TCP-IP\TCP-IP.csproj">
+      <Project>{b4479785-1096-4c00-bec1-dcda49e7e38c}</Project>
+      <Name>TCP-IP</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Planet.resx">
